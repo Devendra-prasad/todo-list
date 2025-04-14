@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+.todo-list{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-list h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-list h2 i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* input row style  */
+.input-row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #edeef0;
+   border-radius: 30px;
+   padding-left: 20px;
+   margin-bottom: 25px;
+}
+.input-row input{
+    flex: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 16px;
+}
+.input-row button{
+    border: 0;
+    outline: 0;
+    padding: 16px 50px;
+    border-radius: 40px;
+    background-color: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* todo items style  */
+.items{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    margin: 20px 0;
+}
+.items li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.items input{
+    cursor: pointer;
+}
+.items i{
+    cursor: pointer;
+}
+
+/* responsive design started */
+
+@media screen and (max-width: 500px){
+    .input-row button{
+        padding: 10px 30px;
+    }
+
+}
