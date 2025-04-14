@@ -12,7 +12,7 @@ Features
 
 Click below link to view
 
-   https://Devendra-prasad.github.io/todo-list/
+    https://devendra-prasad.github.io/todo-list/
 
 Technology used
 
@@ -21,9 +21,7 @@ Technology used
   3 JavaScript
 
 How to Run
-
-1. Clone the repository: https://github.com/Devendra-prasad/todo-list.git
-2. open the index.html file in your browser.
+  open the index.html file in your browser.
 
 Author
 
